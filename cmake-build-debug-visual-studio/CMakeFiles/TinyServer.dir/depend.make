@@ -3,6 +3,9 @@
 
 CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj: ..\ThreadPool.cpp
 CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj: ..\ThreadPool.h
+CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj: ..\all.h
 
+CMakeFiles\TinyServer.dir\main.cpp.obj: ..\ThreadPool.h
+CMakeFiles\TinyServer.dir\main.cpp.obj: ..\all.h
 CMakeFiles\TinyServer.dir\main.cpp.obj: ..\main.cpp
 
