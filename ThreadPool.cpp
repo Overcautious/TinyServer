@@ -13,19 +13,21 @@ ThreadPool::ThreadPool(int numWokers): m_isClose(false) {
     for(int i=0; i<numWokers; i++){
         m_threads.emplace_back([this]{      // 在仿函数内部使用了
             while(1){
-                std::unique_lock<std::mutex> lck(m_mtx);
-                while( !m_isClose  && m_jobs.empty() ){
-                    m_cond.wait(lck);
-                }
-                if(m_jobs.empty() && m_isClose){
-                    // std::cout << "[ThreadPool::TheadPool] thread_id = " << std::this_thread::get_id() << "return" << std::endl; // 非线程安全
-                    printf("[ThreadPool::TheadPool] thread_id = %lu return\n", std::this_thread::get_id());
-                    return;
-                }
+                JobFunction job;
+                {
+                    std::unique_lock<std::mutex> lck(m_mtx);
+                    while (!m_isClose && m_jobs.empty()) {
+                        m_cond.wait(lck);
+                    }
+                    if (m_jobs.empty() && m_isClose) {
+                        // std::cout << "[ThreadPool::TheadPool] thread_id = " << std::this_thread::get_id() << "return" << std::endl; // 非线程安全
+                        printf("[ThreadPool::TheadPool] thread_id = %lu return\n", std::this_thread::get_id());
+                        return;
+                    }
 
-                JobFunction job = m_jobs.front();
-                m_jobs.pop();
-
+                    job = m_jobs.front();
+                    m_jobs.pop();
+                }
                 if(job){
                     printf("[ThreadPool::ThreadPool] thread_id = %lu get a job\n", std::this_thread::get_id());
                     job();
@@ -38,9 +40,11 @@ ThreadPool::ThreadPool(int numWokers): m_isClose(false) {
 }
 
 ThreadPool::~ThreadPool() {
-    std::unique_lock<std::mutex> lck(m_mtx);
-    m_isClose = true;
-
+    printf("begin des\n");
+    {
+        std::unique_lock<std::mutex> lck(m_mtx);
+        m_isClose = true;
+    }
     m_cond.notify_all();
     for (auto &thread : m_threads)
     {

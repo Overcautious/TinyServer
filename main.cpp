@@ -16,13 +16,15 @@ void fun(){
 int main() {
     std::cout << "Hello, World!" << std::endl;
 
-    ThreadPool* m_pool = new ThreadPool(8);
+    //ThreadPool* m_pool = new ThreadPool(8);
+    ThreadPool m_pool(8);
     int cnt = 0;
     while(cnt < 3){
-        m_pool->pushJob(fun);
+        m_pool.pushJob(fun);
         cnt++;
     }
-    delete m_pool;
-    std::cout << "All threads joined.\n";
+    //delete m_pool;
+    //std::cout << "All threads joined.\n";
+    //_sleep(10);
     return 0;
 }

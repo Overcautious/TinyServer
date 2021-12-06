@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/Clion_workspace/TinyServer/Buffer.cpp">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/Buffer.h">
+			<Option target="TinyServer"/>
+		</Unit>
 		<Unit filename="F:/Clion_workspace/TinyServer/ThreadPool.cpp">
 			<Option target="TinyServer"/>
 		</Unit>

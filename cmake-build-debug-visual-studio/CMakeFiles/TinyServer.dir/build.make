@@ -99,19 +99,40 @@ CMakeFiles\TinyServer.dir\ThreadPool.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\ThreadPool.cpp.s /c F:\Clion_workspace\TinyServer\ThreadPool.cpp
 <<
 
+CMakeFiles\TinyServer.dir\Buffer.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\Buffer.cpp.obj: ..\Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TinyServer.dir/Buffer.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\Buffer.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\Buffer.cpp
+<<
+
+CMakeFiles\TinyServer.dir\Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/Buffer.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\Buffer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\Buffer.cpp
+<<
+
+CMakeFiles\TinyServer.dir\Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/Buffer.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\Buffer.cpp.s /c F:\Clion_workspace\TinyServer\Buffer.cpp
+<<
+
 # Object files for target TinyServer
 TinyServer_OBJECTS = \
 "CMakeFiles\TinyServer.dir\main.cpp.obj" \
-"CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj"
+"CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj" \
+"CMakeFiles\TinyServer.dir\Buffer.cpp.obj"
 
 # External object files for target TinyServer
 TinyServer_EXTERNAL_OBJECTS =
 
 TinyServer.exe: CMakeFiles\TinyServer.dir\main.cpp.obj
 TinyServer.exe: CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\Buffer.cpp.obj
 TinyServer.exe: CMakeFiles\TinyServer.dir\build.make
 TinyServer.exe: CMakeFiles\TinyServer.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TinyServer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TinyServer.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.3.0\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\TinyServer.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\TinyServer.dir\objects1.rsp @<<
  /out:TinyServer.exe /implib:TinyServer.lib /pdb:F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\TinyServer.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

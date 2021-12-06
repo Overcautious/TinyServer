@@ -127,6 +127,33 @@ TinyServer\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\build
 .PHONY : TinyServer\fast
 
+Buffer.obj: Buffer.cpp.obj
+
+.PHONY : Buffer.obj
+
+# target to build an object file
+Buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\Buffer.cpp.obj
+.PHONY : Buffer.cpp.obj
+
+Buffer.i: Buffer.cpp.i
+
+.PHONY : Buffer.i
+
+# target to preprocess a source file
+Buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\Buffer.cpp.i
+.PHONY : Buffer.cpp.i
+
+Buffer.s: Buffer.cpp.s
+
+.PHONY : Buffer.s
+
+# target to generate assembly for a file
+Buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\Buffer.cpp.s
+.PHONY : Buffer.cpp.s
+
 ThreadPool.obj: ThreadPool.cpp.obj
 
 .PHONY : ThreadPool.obj
@@ -190,6 +217,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TinyServer
+	@echo ... Buffer.obj
+	@echo ... Buffer.i
+	@echo ... Buffer.s
 	@echo ... ThreadPool.obj
 	@echo ... ThreadPool.i
 	@echo ... ThreadPool.s

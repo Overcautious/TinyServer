@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "F:/Clion_workspace/TinyServer/Buffer.cpp" "F:/Clion_workspace/TinyServer/cmake-build-debug-visual-studio/CMakeFiles/TinyServer.dir/Buffer.cpp.obj"
   "F:/Clion_workspace/TinyServer/ThreadPool.cpp" "F:/Clion_workspace/TinyServer/cmake-build-debug-visual-studio/CMakeFiles/TinyServer.dir/ThreadPool.cpp.obj"
   "F:/Clion_workspace/TinyServer/main.cpp" "F:/Clion_workspace/TinyServer/cmake-build-debug-visual-studio/CMakeFiles/TinyServer.dir/main.cpp.obj"
   )

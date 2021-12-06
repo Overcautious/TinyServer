@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/TinyServer.dir/Buffer.cpp.obj"
   "CMakeFiles/TinyServer.dir/ThreadPool.cpp.obj"
   "CMakeFiles/TinyServer.dir/main.cpp.obj"
   "TinyServer.exe"
