@@ -57,7 +57,7 @@ void ThreadPool::pushJob(const JobFunction &job)
     }
 
     printf("[ThreadPool::pushJob] push new job\n");
-    m_cv.notify_one();
+    m_cond.notify_one();
 }
 
 #pragma clang diagnostic pop

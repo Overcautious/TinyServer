@@ -19,20 +19,20 @@
 #include <memory>
 #include <stdio.h>      // perror
 #include <fcntl.h>      // fcntl
-#include <unistd.h>     // fcntl, close
+//#include <unistd.h>     // fcntl, close
 #include <stdlib.h>
 #include <stdarg.h>
-#include <unistd.h>     // write
-#include <sys/uio.h>    // readv
+//#include <unistd.h>     // write
+//#include <sys/uio.h>    // readv
 #include <iostream>
 #include <algorithm>
 #include <exception>
 #include <functional>
-#include <sys/epoll.h>
+//#include <sys/epoll.h>
 #include <sys/stat.h>
-#include <sys/mman.h>
-#include <sys/socket.h>     // socket, setsockopt, bind, listen
-#include <arpa/inet.h>      // htonl, htons
+//iclude <sys/mman.h>
+//#include <sys/socket.h>     // socket, setsockopt, bind, listen
+//#include <arpa/inet.h>      // htonl, htons
 #include <condition_variable>
 
 

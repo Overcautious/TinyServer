@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-F:/Clion_workspace/TinyServer/ThreadPool.cpp
-ThreadPool.h
-F:/Clion_workspace/TinyServer/ThreadPool.h
-
 F:/Clion_workspace/TinyServer/ThreadPool.h
 all.h
 F:/Clion_workspace/TinyServer/all.h
@@ -43,15 +39,9 @@ stdio.h
 -
 fcntl.h
 -
-unistd.h
--
 stdlib.h
 -
 stdarg.h
--
-unistd.h
--
-sys/uio.h
 -
 iostream
 -
@@ -61,15 +51,7 @@ exception
 -
 functional
 -
-sys/epoll.h
--
 sys/stat.h
--
-sys/mman.h
--
-sys/socket.h
--
-arpa/inet.h
 -
 condition_variable
 -
