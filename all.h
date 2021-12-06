@@ -22,8 +22,8 @@
 //#include <unistd.h>     // fcntl, close
 #include <stdlib.h>
 #include <stdarg.h>
-//#include <unistd.h>     // write
-//#include <sys/uio.h>    // readv
+#include <unistd.h>     // write
+#include <sys/uio.h>    // readv
 #include <iostream>
 #include <algorithm>
 #include <exception>
