@@ -3,4 +3,4 @@ project(TinyServer)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(TinyServer main.cpp ThreadPool.cpp ThreadPool.h all.h Buffer.cpp Buffer.h)
+add_executable(TinyServer main.cpp ThreadPool.cpp ThreadPool.h all.h Buffer.cpp Buffer.h Timer.cpp Timer.h HttpRequest.cpp HttpRequest.h)
