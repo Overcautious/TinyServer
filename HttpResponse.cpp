@@ -4,6 +4,7 @@
 
 #include "HttpResponse.h"
 #include "Buffer.h"
+namespace TinyServer{
 const std::map<int, std::string> HttpResponse::statuesCode2Msg = {
         {200, "OK"},
         {400, "Bad Request"},
@@ -133,4 +134,5 @@ std::string HttpResponse::getFileType() {
         return "text/plain";
 
     return itr->second;
+}
 }

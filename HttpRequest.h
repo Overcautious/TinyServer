@@ -8,6 +8,7 @@
 #include "Buffer.h"
 #define STATIC_ROOT "../www"
 
+namespace TinyServer{
 class TimerNode;
 
 class HttpRequest {
@@ -133,5 +134,5 @@ private:
     void addHeader(const char* begin, const char* colon , const char* end);
 };
 
-
+}
 #endif //TINYSERVER_HTTPREQUEST_H

@@ -11,6 +11,7 @@
 //
 // | prependable bytes | readable bytes | writable bytes |
 // 0    <=         readIndex    <=   writeIndex
+namespace TinyServer{
 class Buffer {
 private:
     std::vector<char> m_buffer;
@@ -132,5 +133,5 @@ private:
     }
 };
 
-
+}
 #endif //TINYSERVER_BUFFER_H

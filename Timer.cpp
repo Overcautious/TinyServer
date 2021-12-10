@@ -4,7 +4,7 @@
 
 #include "Timer.h"
 #include "HttpRequest.h"
-
+namespace TinyServer{
 void Timer::addTimerNode(HttpRequest *req, const int &time_out, const TimeoutCallback &cb) {
     std::unique_lock<std::mutex> lck(m_mtx);
     assert(req != nullptr);
@@ -77,4 +77,5 @@ int Timer::getNearestExpiredTimerNode() {
     }
 
     return res;
+}
 }

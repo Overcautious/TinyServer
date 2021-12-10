@@ -7,6 +7,8 @@
 
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "EndlessLoop"
+namespace TinyServer{
+
 ThreadPool::ThreadPool(int numWokers): m_isClose(false) {
     numWokers = numWokers <= 0 ? 1:numWokers;
 
@@ -63,5 +65,5 @@ void ThreadPool::pushJob(const JobFunction &job)
     printf("[ThreadPool::pushJob] push new job\n");
     m_cond.notify_one();
 }
-
+}
 #pragma clang diagnostic pop

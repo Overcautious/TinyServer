@@ -4,6 +4,7 @@
 
 #include "HttpRequest.h"
 
+namespace TinyServer{
 HttpRequest::HttpRequest(int fd): m_fd(fd), m_isWorking(false), m_timer(nullptr),
                             m_state(RequestLine), m_method(Invalid), m_version(Unknown)
 {
@@ -175,5 +176,5 @@ bool HttpRequest::keepAlive() const {
     return res;
 }
 
-
+}
 

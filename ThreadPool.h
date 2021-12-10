@@ -5,7 +5,7 @@
 #ifndef TINYSERVER_THREADPOOL_H
 #define TINYSERVER_THREADPOOL_H
 #include "all.h"
-
+namespace TinyServer{
 class ThreadPool {
 public:
     using JobFunction = std::function<void()>;
@@ -22,6 +22,6 @@ private:
     std::queue<JobFunction> m_jobs;
     bool m_isClose;
 };
-
+}
 
 #endif //TINYSERVER_THREADPOOL_H

@@ -2,32 +2,15 @@
 #include <thread>
 #include <vector>
 #include "ThreadPool.h"
-
-void fun(){
-    int cnt = 0;
-    while(cnt < 3){
-
-        // printf("This is job func %d\n", (*(uint32_t*)&std::this_thread::get_id())  );
-        printf("This is job func %lu\n", std::this_thread::get_id());
-        cnt++;
-    }
-};
+#include "Server.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    u_short port = 8080;
 
+    int numThread = 4;
 
+    TinyServer::Server server(port, numThread);
+    server.run();
 
-
-    //ThreadPool* m_pool = new ThreadPool(8);
-    ThreadPool m_pool(8);
-    int cnt = 0;
-    while(cnt < 3){
-        m_pool.pushJob(fun);
-        cnt++;
-    }
-    //delete m_pool;
-    //std::cout << "All threads joined.\n";
-    //_sleep(10);
     return 0;
 }

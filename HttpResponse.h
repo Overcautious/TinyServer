@@ -7,7 +7,7 @@
 #include "all.h"
 
 #define CONNECT_TIMEOUT 500
-
+namespace TinyServer{
 class Buffer;
 class HttpResponse {
 private:
@@ -32,5 +32,5 @@ private:
     bool m_isKeepAlive;
 };
 
-
+}
 #endif //TINYSERVER_HTTPRESPONSE_H

@@ -5,6 +5,8 @@
 #ifndef TINYSERVER_TIMER_H
 #define TINYSERVER_TIMER_H
 #include "all.h"
+
+namespace TinyServer{
 using TimeoutCallback = std::function<void()>;
 //using Clock = std::chrono::high_resolution_clock;
 using Clock = std::chrono::system_clock;
@@ -48,7 +50,7 @@ struct cmp{
 };
 
 class Timer{
-private:
+public:
     std::priority_queue<TimerNode*, std::vector<TimerNode*>, cmp> m_timerQueue;
 
     std::mutex m_mtx;
@@ -73,5 +75,5 @@ public:
 
     int getNearestExpiredTimerNode();
 };
-
+}
 #endif //TINYSERVER_TIMER_H
