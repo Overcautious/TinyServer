@@ -1,3 +1,0 @@
-F:/Clion_workspace/TinyServer/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
-F:/Clion_workspace/TinyServer/cmake-build-debug-visual-studio/CMakeFiles/TinyServer.dir
-F:/Clion_workspace/TinyServer/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
