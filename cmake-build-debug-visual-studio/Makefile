@@ -127,86 +127,248 @@ TinyServer\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\build
 .PHONY : TinyServer\fast
 
-Buffer.obj: Buffer.cpp.obj
+code\Buffer.obj: code\Buffer.cpp.obj
 
-.PHONY : Buffer.obj
-
-# target to build an object file
-Buffer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\Buffer.cpp.obj
-.PHONY : Buffer.cpp.obj
-
-Buffer.i: Buffer.cpp.i
-
-.PHONY : Buffer.i
-
-# target to preprocess a source file
-Buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\Buffer.cpp.i
-.PHONY : Buffer.cpp.i
-
-Buffer.s: Buffer.cpp.s
-
-.PHONY : Buffer.s
-
-# target to generate assembly for a file
-Buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\Buffer.cpp.s
-.PHONY : Buffer.cpp.s
-
-ThreadPool.obj: ThreadPool.cpp.obj
-
-.PHONY : ThreadPool.obj
+.PHONY : code\Buffer.obj
 
 # target to build an object file
-ThreadPool.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj
-.PHONY : ThreadPool.cpp.obj
+code\Buffer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Buffer.cpp.obj
+.PHONY : code\Buffer.cpp.obj
 
-ThreadPool.i: ThreadPool.cpp.i
+code\Buffer.i: code\Buffer.cpp.i
 
-.PHONY : ThreadPool.i
+.PHONY : code\Buffer.i
 
 # target to preprocess a source file
-ThreadPool.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\ThreadPool.cpp.i
-.PHONY : ThreadPool.cpp.i
+code\Buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Buffer.cpp.i
+.PHONY : code\Buffer.cpp.i
 
-ThreadPool.s: ThreadPool.cpp.s
+code\Buffer.s: code\Buffer.cpp.s
 
-.PHONY : ThreadPool.s
+.PHONY : code\Buffer.s
 
 # target to generate assembly for a file
-ThreadPool.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\ThreadPool.cpp.s
-.PHONY : ThreadPool.cpp.s
+code\Buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Buffer.cpp.s
+.PHONY : code\Buffer.cpp.s
 
-main.obj: main.cpp.obj
+code\Epoll.obj: code\Epoll.cpp.obj
 
-.PHONY : main.obj
+.PHONY : code\Epoll.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+code\Epoll.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Epoll.cpp.obj
+.PHONY : code\Epoll.cpp.obj
 
-main.i: main.cpp.i
+code\Epoll.i: code\Epoll.cpp.i
 
-.PHONY : main.i
+.PHONY : code\Epoll.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\main.cpp.i
-.PHONY : main.cpp.i
+code\Epoll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Epoll.cpp.i
+.PHONY : code\Epoll.cpp.i
 
-main.s: main.cpp.s
+code\Epoll.s: code\Epoll.cpp.s
 
-.PHONY : main.s
+.PHONY : code\Epoll.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\main.cpp.s
-.PHONY : main.cpp.s
+code\Epoll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Epoll.cpp.s
+.PHONY : code\Epoll.cpp.s
+
+code\HttpRequest.obj: code\HttpRequest.cpp.obj
+
+.PHONY : code\HttpRequest.obj
+
+# target to build an object file
+code\HttpRequest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.obj
+.PHONY : code\HttpRequest.cpp.obj
+
+code\HttpRequest.i: code\HttpRequest.cpp.i
+
+.PHONY : code\HttpRequest.i
+
+# target to preprocess a source file
+code\HttpRequest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.i
+.PHONY : code\HttpRequest.cpp.i
+
+code\HttpRequest.s: code\HttpRequest.cpp.s
+
+.PHONY : code\HttpRequest.s
+
+# target to generate assembly for a file
+code\HttpRequest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.s
+.PHONY : code\HttpRequest.cpp.s
+
+code\HttpResponse.obj: code\HttpResponse.cpp.obj
+
+.PHONY : code\HttpResponse.obj
+
+# target to build an object file
+code\HttpResponse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.obj
+.PHONY : code\HttpResponse.cpp.obj
+
+code\HttpResponse.i: code\HttpResponse.cpp.i
+
+.PHONY : code\HttpResponse.i
+
+# target to preprocess a source file
+code\HttpResponse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.i
+.PHONY : code\HttpResponse.cpp.i
+
+code\HttpResponse.s: code\HttpResponse.cpp.s
+
+.PHONY : code\HttpResponse.s
+
+# target to generate assembly for a file
+code\HttpResponse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.s
+.PHONY : code\HttpResponse.cpp.s
+
+code\Server.obj: code\Server.cpp.obj
+
+.PHONY : code\Server.obj
+
+# target to build an object file
+code\Server.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Server.cpp.obj
+.PHONY : code\Server.cpp.obj
+
+code\Server.i: code\Server.cpp.i
+
+.PHONY : code\Server.i
+
+# target to preprocess a source file
+code\Server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Server.cpp.i
+.PHONY : code\Server.cpp.i
+
+code\Server.s: code\Server.cpp.s
+
+.PHONY : code\Server.s
+
+# target to generate assembly for a file
+code\Server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Server.cpp.s
+.PHONY : code\Server.cpp.s
+
+code\ThreadPool.obj: code\ThreadPool.cpp.obj
+
+.PHONY : code\ThreadPool.obj
+
+# target to build an object file
+code\ThreadPool.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.obj
+.PHONY : code\ThreadPool.cpp.obj
+
+code\ThreadPool.i: code\ThreadPool.cpp.i
+
+.PHONY : code\ThreadPool.i
+
+# target to preprocess a source file
+code\ThreadPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.i
+.PHONY : code\ThreadPool.cpp.i
+
+code\ThreadPool.s: code\ThreadPool.cpp.s
+
+.PHONY : code\ThreadPool.s
+
+# target to generate assembly for a file
+code\ThreadPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.s
+.PHONY : code\ThreadPool.cpp.s
+
+code\Timer.obj: code\Timer.cpp.obj
+
+.PHONY : code\Timer.obj
+
+# target to build an object file
+code\Timer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Timer.cpp.obj
+.PHONY : code\Timer.cpp.obj
+
+code\Timer.i: code\Timer.cpp.i
+
+.PHONY : code\Timer.i
+
+# target to preprocess a source file
+code\Timer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Timer.cpp.i
+.PHONY : code\Timer.cpp.i
+
+code\Timer.s: code\Timer.cpp.s
+
+.PHONY : code\Timer.s
+
+# target to generate assembly for a file
+code\Timer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Timer.cpp.s
+.PHONY : code\Timer.cpp.s
+
+code\Utils.obj: code\Utils.cpp.obj
+
+.PHONY : code\Utils.obj
+
+# target to build an object file
+code\Utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Utils.cpp.obj
+.PHONY : code\Utils.cpp.obj
+
+code\Utils.i: code\Utils.cpp.i
+
+.PHONY : code\Utils.i
+
+# target to preprocess a source file
+code\Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Utils.cpp.i
+.PHONY : code\Utils.cpp.i
+
+code\Utils.s: code\Utils.cpp.s
+
+.PHONY : code\Utils.s
+
+# target to generate assembly for a file
+code\Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\Utils.cpp.s
+.PHONY : code\Utils.cpp.s
+
+code\main.obj: code\main.cpp.obj
+
+.PHONY : code\main.obj
+
+# target to build an object file
+code\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\main.cpp.obj
+.PHONY : code\main.cpp.obj
+
+code\main.i: code\main.cpp.i
+
+.PHONY : code\main.i
+
+# target to preprocess a source file
+code\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\main.cpp.i
+.PHONY : code\main.cpp.i
+
+code\main.s: code\main.cpp.s
+
+.PHONY : code\main.s
+
+# target to generate assembly for a file
+code\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TinyServer.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\TinyServer.dir\code\main.cpp.s
+.PHONY : code\main.cpp.s
 
 # Help Target
 help:
@@ -217,15 +379,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TinyServer
-	@echo ... Buffer.obj
-	@echo ... Buffer.i
-	@echo ... Buffer.s
-	@echo ... ThreadPool.obj
-	@echo ... ThreadPool.i
-	@echo ... ThreadPool.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... code/Buffer.obj
+	@echo ... code/Buffer.i
+	@echo ... code/Buffer.s
+	@echo ... code/Epoll.obj
+	@echo ... code/Epoll.i
+	@echo ... code/Epoll.s
+	@echo ... code/HttpRequest.obj
+	@echo ... code/HttpRequest.i
+	@echo ... code/HttpRequest.s
+	@echo ... code/HttpResponse.obj
+	@echo ... code/HttpResponse.i
+	@echo ... code/HttpResponse.s
+	@echo ... code/Server.obj
+	@echo ... code/Server.i
+	@echo ... code/Server.s
+	@echo ... code/ThreadPool.obj
+	@echo ... code/ThreadPool.i
+	@echo ... code/ThreadPool.s
+	@echo ... code/Timer.obj
+	@echo ... code/Timer.i
+	@echo ... code/Timer.s
+	@echo ... code/Utils.obj
+	@echo ... code/Utils.i
+	@echo ... code/Utils.s
+	@echo ... code/main.obj
+	@echo ... code/main.i
+	@echo ... code/main.s
 .PHONY : help
 
 

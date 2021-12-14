@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/libpthread.a"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -56,6 +57,7 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/libpthread.a"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
@@ -82,22 +84,58 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="F:/Clion_workspace/TinyServer/Buffer.cpp">
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Buffer.cpp">
 			<Option target="TinyServer"/>
 		</Unit>
-		<Unit filename="F:/Clion_workspace/TinyServer/Buffer.h">
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Buffer.h">
 			<Option target="TinyServer"/>
 		</Unit>
-		<Unit filename="F:/Clion_workspace/TinyServer/ThreadPool.cpp">
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Epoll.cpp">
 			<Option target="TinyServer"/>
 		</Unit>
-		<Unit filename="F:/Clion_workspace/TinyServer/ThreadPool.h">
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Epoll.h">
 			<Option target="TinyServer"/>
 		</Unit>
-		<Unit filename="F:/Clion_workspace/TinyServer/all.h">
+		<Unit filename="F:/Clion_workspace/TinyServer/code/HttpRequest.cpp">
 			<Option target="TinyServer"/>
 		</Unit>
-		<Unit filename="F:/Clion_workspace/TinyServer/main.cpp">
+		<Unit filename="F:/Clion_workspace/TinyServer/code/HttpRequest.h">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/HttpResponse.cpp">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/HttpResponse.h">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Server.cpp">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Server.h">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/ThreadPool.cpp">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/ThreadPool.h">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Timer.cpp">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Timer.h">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Utils.cpp">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/Utils.h">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/all.h">
+			<Option target="TinyServer"/>
+		</Unit>
+		<Unit filename="F:/Clion_workspace/TinyServer/code/main.cpp">
 			<Option target="TinyServer"/>
 		</Unit>
 		<Unit filename="F:/Clion_workspace/TinyServer/CMakeLists.txt">

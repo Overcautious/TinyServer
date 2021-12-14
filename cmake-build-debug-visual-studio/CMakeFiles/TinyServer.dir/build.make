@@ -61,80 +61,206 @@ include CMakeFiles\TinyServer.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\TinyServer.dir\flags.make
 
-CMakeFiles\TinyServer.dir\main.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
-CMakeFiles\TinyServer.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TinyServer.dir/main.cpp.obj"
+CMakeFiles\TinyServer.dir\code\main.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\main.cpp.obj: ..\code\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TinyServer.dir/code/main.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\main.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\main.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\main.cpp
 <<
 
-CMakeFiles\TinyServer.dir\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/main.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\main.cpp
+CMakeFiles\TinyServer.dir\code\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/main.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\main.cpp
 <<
 
-CMakeFiles\TinyServer.dir\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/main.cpp.s"
+CMakeFiles\TinyServer.dir\code\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/main.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\main.cpp.s /c F:\Clion_workspace\TinyServer\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\main.cpp.s /c F:\Clion_workspace\TinyServer\code\main.cpp
 <<
 
-CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
-CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj: ..\ThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TinyServer.dir/ThreadPool.cpp.obj"
+CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.obj: ..\code\ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TinyServer.dir/code/ThreadPool.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\ThreadPool.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\ThreadPool.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\ThreadPool.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\ThreadPool.cpp
 <<
 
-CMakeFiles\TinyServer.dir\ThreadPool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/ThreadPool.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\ThreadPool.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\ThreadPool.cpp
+CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/ThreadPool.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\ThreadPool.cpp
 <<
 
-CMakeFiles\TinyServer.dir\ThreadPool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/ThreadPool.cpp.s"
+CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/ThreadPool.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\ThreadPool.cpp.s /c F:\Clion_workspace\TinyServer\ThreadPool.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\ThreadPool.cpp.s /c F:\Clion_workspace\TinyServer\code\ThreadPool.cpp
 <<
 
-CMakeFiles\TinyServer.dir\Buffer.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
-CMakeFiles\TinyServer.dir\Buffer.cpp.obj: ..\Buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TinyServer.dir/Buffer.cpp.obj"
+CMakeFiles\TinyServer.dir\code\Buffer.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\Buffer.cpp.obj: ..\code\Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TinyServer.dir/code/Buffer.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\Buffer.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\Buffer.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\Buffer.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\Buffer.cpp
 <<
 
-CMakeFiles\TinyServer.dir\Buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/Buffer.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\Buffer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\Buffer.cpp
+CMakeFiles\TinyServer.dir\code\Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/Buffer.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\Buffer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\Buffer.cpp
 <<
 
-CMakeFiles\TinyServer.dir\Buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/Buffer.cpp.s"
+CMakeFiles\TinyServer.dir\code\Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/Buffer.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\Buffer.cpp.s /c F:\Clion_workspace\TinyServer\Buffer.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\Buffer.cpp.s /c F:\Clion_workspace\TinyServer\code\Buffer.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Timer.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\Timer.cpp.obj: ..\code\Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TinyServer.dir/code/Timer.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\Timer.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\Timer.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Timer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/Timer.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\Timer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\Timer.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Timer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/Timer.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\Timer.cpp.s /c F:\Clion_workspace\TinyServer\code\Timer.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.obj: ..\code\HttpRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TinyServer.dir/code/HttpRequest.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\HttpRequest.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\HttpRequest.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/HttpRequest.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\HttpRequest.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/HttpRequest.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\HttpRequest.cpp.s /c F:\Clion_workspace\TinyServer\code\HttpRequest.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.obj: ..\code\HttpResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TinyServer.dir/code/HttpResponse.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\HttpResponse.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\HttpResponse.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/HttpResponse.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\HttpResponse.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/HttpResponse.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\HttpResponse.cpp.s /c F:\Clion_workspace\TinyServer\code\HttpResponse.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Utils.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\Utils.cpp.obj: ..\code\Utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TinyServer.dir/code/Utils.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\Utils.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\Utils.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/Utils.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\Utils.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\Utils.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/Utils.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\Utils.cpp.s /c F:\Clion_workspace\TinyServer\code\Utils.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Epoll.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\Epoll.cpp.obj: ..\code\Epoll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TinyServer.dir/code/Epoll.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\Epoll.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\Epoll.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Epoll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/Epoll.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\Epoll.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\Epoll.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Epoll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/Epoll.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\Epoll.cpp.s /c F:\Clion_workspace\TinyServer\code\Epoll.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Server.cpp.obj: CMakeFiles\TinyServer.dir\flags.make
+CMakeFiles\TinyServer.dir\code\Server.cpp.obj: ..\code\Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TinyServer.dir/code/Server.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\TinyServer.dir\code\Server.cpp.obj /FdCMakeFiles\TinyServer.dir\ /FS -c F:\Clion_workspace\TinyServer\code\Server.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TinyServer.dir/code/Server.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe > CMakeFiles\TinyServer.dir\code\Server.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\Clion_workspace\TinyServer\code\Server.cpp
+<<
+
+CMakeFiles\TinyServer.dir\code\Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TinyServer.dir/code/Server.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\TinyServer.dir\code\Server.cpp.s /c F:\Clion_workspace\TinyServer\code\Server.cpp
 <<
 
 # Object files for target TinyServer
 TinyServer_OBJECTS = \
-"CMakeFiles\TinyServer.dir\main.cpp.obj" \
-"CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj" \
-"CMakeFiles\TinyServer.dir\Buffer.cpp.obj"
+"CMakeFiles\TinyServer.dir\code\main.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\Buffer.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\Timer.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\Utils.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\Epoll.cpp.obj" \
+"CMakeFiles\TinyServer.dir\code\Server.cpp.obj"
 
 # External object files for target TinyServer
 TinyServer_EXTERNAL_OBJECTS =
 
-TinyServer.exe: CMakeFiles\TinyServer.dir\main.cpp.obj
-TinyServer.exe: CMakeFiles\TinyServer.dir\ThreadPool.cpp.obj
-TinyServer.exe: CMakeFiles\TinyServer.dir\Buffer.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\main.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\ThreadPool.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\Buffer.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\Timer.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\HttpRequest.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\HttpResponse.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\Utils.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\Epoll.cpp.obj
+TinyServer.exe: CMakeFiles\TinyServer.dir\code\Server.cpp.obj
 TinyServer.exe: CMakeFiles\TinyServer.dir\build.make
 TinyServer.exe: CMakeFiles\TinyServer.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TinyServer.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TinyServer.exe"
 	"C:\Program Files\JetBrains\CLion 2020.3.3.0\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\TinyServer.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MIB055~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\TinyServer.dir\objects1.rsp @<<
- /out:TinyServer.exe /implib:TinyServer.lib /pdb:F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\TinyServer.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:TinyServer.exe /implib:TinyServer.lib /pdb:F:\Clion_workspace\TinyServer\cmake-build-debug-visual-studio\TinyServer.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console   -LIBPATH:\usr\lib\x86_64-linux-gnu\libpthread.so  pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
