@@ -23,7 +23,7 @@ Server::~Server() {}
 
 
 void Server::run() {
-    m_epoll->add(m_lsnFd, m_lsnReq.get(), (EPOLLIN | EPOLLET));
+    m_epoll->add(m_lsnFd, m_lsnReq.get(), EPOLLIN | EPOLLET );
     m_epoll->setConnectionCallbak(std::bind(&Server::acceptConnection, this));
     m_epoll->setCloseconnectionCallbak(std::bind(&Server::closeConnection, this, std::placeholders::_1));
     m_epoll->setRequest(std::bind(&Server::doRequest, this, std::placeholders::_1));

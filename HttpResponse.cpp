@@ -112,10 +112,10 @@ void HttpResponse::doErrorResponse(Buffer& output, std::string msg) {
     pageBody += "<body bgcolor=\"ffffff\">";
     pageBody += std::to_string(m_statusCode) + " : " + itr->second + "\n";
     pageBody += "<p>" + msg + "</p>";
-    pageBody += "<hr><em>Linkaging Web Server</em></body><html>";
+    pageBody += "<hr><em>TinyServer Web Server</em></body><html>";
 
     output.append("HTTP/1.1 " + std::to_string(m_statusCode) + " " + itr->second + "\r\n");
-    output.append("Server: Linkaging\r\n");
+    output.append("Server: TinyServer\r\n");
     output.append("Content-type: text/html\r\n");
     output.append("Connection: close\r\n");
     output.append("Content-length: " + std::to_string(pageBody.size()) + "\r\n\r\n");

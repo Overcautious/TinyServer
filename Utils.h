@@ -5,7 +5,9 @@
 #ifndef TINYSERVER_UTILS_H
 #define TINYSERVER_UTILS_H
 #include "all.h"
+#define LSTNQUE 1024 // 监听队列长度,操作系统默认值为SOMAXCONN
 namespace TinyServer{
+
 namespace Utils {
 
     int createListenFd(u_short port);

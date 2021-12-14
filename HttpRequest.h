@@ -6,7 +6,7 @@
 #define TINYSERVER_HTTPREQUEST_H
 #include "all.h"
 #include "Buffer.h"
-#define STATIC_ROOT "../www"
+#define STATIC_ROOT "/root/my_project/TinyServer/www"
 
 namespace TinyServer{
 class TimerNode;
@@ -121,6 +121,7 @@ private:
         if(subPath == "/")
             subPath = "/index.html";
         m_path = STATIC_ROOT + subPath;
+        printf("[HttpRequest::setPath] m_path: %s\n", m_path);
     }
 
     void setQueryParameter(const char* begin, const char* end){

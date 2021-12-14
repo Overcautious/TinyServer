@@ -82,7 +82,7 @@ bool HttpRequest::setHttpMethod(const char *begin, const char *end) {
     else
         m_method = Invalid;
 
-    return m_method == Invalid;
+    return m_method != Invalid;
 }
 
 bool HttpRequest::parseRequestLine(const char *begin, const char *end) {

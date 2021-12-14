@@ -53,7 +53,7 @@ int Epoll::wait(int timeoutMS) {
 void Epoll::handleEvent(int lsnFd, std::shared_ptr<ThreadPool> &threadPool, int eventsNum) {
     assert(eventsNum > 0);
     for(int i=0; i<eventsNum; i++){
-        HttpRequest* req = (HttpRequest*)(m_events[i].data.ptr);
+        HttpRequest* req = (HttpRequest*)(m_events[i].data.ptr);    //
         int fd = req->getFd();
         if(fd == lsnFd){
             c_buildConnection();

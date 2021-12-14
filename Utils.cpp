@@ -33,6 +33,13 @@ int Utils::createListenFd(u_short port) {
         return -1;
     }
 
+    // 开始监听，监听队列最大为LSTNQUE
+    if (::listen(lsnFd, LSTNQUE) == -1)
+    {
+        printf("[Utils::createListenFd] lsnFd = %d listen: %s\n", lsnFd, strerror(errno));
+        return -1;
+    }
+
     if(lsnFd == -1){
         ::close(lsnFd);
         return  -1;
