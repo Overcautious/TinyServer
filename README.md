@@ -14,7 +14,8 @@
 - 使用std::function + std::bind绑定的方式实现回调
 
 ## TODO
-- 实现日志文件系统
-- 数据库的使用，丰富Server功能
+- 实现日志文件系统 
+- 数据库的使用，丰富Server功能 
 
+#### 详细文档：[TinyServer架构](./docs/TinyServer.md)
 #### 部署地址：http://1.117.220.169:8080/

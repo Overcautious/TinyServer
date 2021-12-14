@@ -5,7 +5,7 @@
 #include "Buffer.h"
 namespace TinyServer{
 ssize_t Buffer::readFd(int fd, int *savedError) {
-    // 创建一个临时缓冲区，处理buffer大小不够到情况
+    // 创建一个临时缓冲区，处理buffer大小不够到情况.
     char extraBuf[65536];
     struct iovec vec[2];
     const size_t writable = writableBytes();
