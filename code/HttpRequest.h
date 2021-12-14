@@ -6,7 +6,7 @@
 #define TINYSERVER_HTTPREQUEST_H
 #include "all.h"
 #include "Buffer.h"
-#define STATIC_ROOT "/root/my_project/TinyServer/www"
+#define STATIC_ROOT "../www"
 
 namespace TinyServer{
 class TimerNode;
